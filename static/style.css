@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.original_title{
+    background-color:  rgb(8, 5, 33);
+    font-size: 20px;
+    color:rgb(244, 228, 197);
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_title{
+    background-color: rgb(8, 5, 33);
+    font-size: 20px;
+    color: rgb(244, 228, 197);
+    padding:2px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.srt{
+gap:1rem;
+display: flex;
+justify-content: center;
+padding: 2px;
+background-color: blanchedalmond;
+}
+
+.srt p{
+    border: 4px solid  rgb(8, 5, 33);;
+    border-radius: 5px;
+    padding: 1rem;
+}
